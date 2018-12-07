@@ -16,3 +16,17 @@ for i in n1:
         c.add(i)
 
 print(len(c))
+
+#second ver
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+e = int(input())
+el = set(map(int,input().split()))
+f = int(input())
+fl = set(map(int,input().split()))
+c = set()
+for i in el:
+    if i not in fl:
+        c.add(i)
+
+print(len(c))
